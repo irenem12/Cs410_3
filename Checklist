@@ -1,0 +1,23 @@
+Things to get done before the deadline:
+(when you finish one just erase it from here)
+
+Arduino
+- Debug the code for launching the serial connection
+- Add in server-side functions to
+  - Ask for temperature
+  - Set stove on/off
+  - Ask for overflow status
+- and functions to handle the return (add it to a struct to then send back as packet)
+
+
+Video
+- Record each feature of the arduino project
+- Compile all together into one video
+
+And other things to check for
+- Server needs to handle HTML status codes 200 (successful request), 404 (Not Found), and 501(Not Implemented).
+- Submit all files in a directory called a3
+- Make a readme file to describe everything especially the physical computing part and include links to external resources
+- Error checking
+  - Make sure the user can only input the correct name=value pairs
+  - Make sure each command has the exact number of name=value pairs needed
